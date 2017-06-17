@@ -1,2 +1,4 @@
 # Logistic_Regression_miniproject
 Logistic Regression applied on a dataset of heights and weights of males and females. The model is used for binary classification (males or females) based on the feature variables of height and weight. 
+
+I implement a hyperparameter selection (C- Inverse of regularization strength) using grid search through means of accuracy score on K-fold cross validation sets, and undertake regularization using the best hyperparameter detected. Regression ensures that we always train the model using the value of C that ensures the presence of highly correlated features in the training data does not throw off the coefficients of regression. This helps us get the maximum accuracy on new unseen test data. This process helps build a model that fits the training data well and generalizes to new test data at the same time.
